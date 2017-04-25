@@ -85,3 +85,6 @@ select generatetransferactivity(1000);
 
 -- creating required views
 \i ./schema/create-view.sql
+
+-- Tearing Down anything unnecessary
+\i ./schema/teardown.sql
